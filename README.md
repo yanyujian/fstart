@@ -9,6 +9,12 @@
 
 如果不需要定时执行，cron表达式那一列留空就行。
  
- 所有的定时都是基于cron表达式的，不熟悉的同学请自行查询资料。
+所有的定时都是基于cron表达式的，不熟悉的同学请自行查询资料。
   
-  需要注意的是：启动程序如果要带参数，请一并放入programPath列。
+需要注意的是：启动程序如果要带参数，请一并放入programPath列。
+
+#### 使用
+##### 只需要将该jar放到启动程序中（windows平台自行配置好java路径）。
+##### 任务配置文件默认在E:\FengZiLi\AssistantTools\fstart\jobs.xlsx ,请通过fstart-1.0.0.jar --jobpath=c:/myjobs.xlsx 来修改。
+##### 启动后在windows右下角的提示区出现相应的图标，点击ConfigJobs即可自动打开任务配置用的Excel文件。
+

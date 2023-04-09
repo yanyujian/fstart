@@ -18,3 +18,5 @@
 ##### 任务配置文件默认在E:\FengZiLi\AssistantTools\fstart\jobs.xlsx ,请通过fstart-1.0.0.jar --jobpath=c:/myjobs.xlsx 来修改。
 ##### 启动后在windows右下角的提示区出现相应的图标，点击ConfigJobs即可自动打开任务配置用的Excel文件。
 
+2023-04-09 11:09:13  调整：将弹窗提示从原来的模态对话框切换成了非模态对话框，解决多个提示运行时相互遮挡的问题。
+另外executeWhenStart是指在fstart启动时是否执行。

@@ -40,9 +40,8 @@ public class NotifyExecutor extends BaseExecutor {
 		System.out.println("执行" + jobInfor.toString());
 		String message = this.getCurrentTime() + "\r\n" + jobInfor.getData();
 		final JPanel panel = new JPanel();
-		int result = JOptionPane.showConfirmDialog(panel, message, "FStart!", JOptionPane.OK_CANCEL_OPTION,
-				JOptionPane.WARNING_MESSAGE, null);
-
+		JOptionPane.showOptionDialog(panel, message, "FStart!", JOptionPane.OK_CANCEL_OPTION,
+				JOptionPane.WARNING_MESSAGE, null, null, null);
 	}
 
 }
